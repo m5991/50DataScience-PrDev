@@ -1,0 +1,58 @@
+---
+title: "50 de la Ciencia de los Datos"
+author: Cesar Medina, Manuel Gastelum
+date: "15 de febrero de 2023"
+output: 
+  ioslides_presentation:
+    widescreen: true
+    css: JB_style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA)
+```
+
+# Ciencia de los Datos vs. Estadística
+
+## Big Data
+
+- Turn off alarm
+- Get out of bed
+
+## Habilidades
+
+- Eat eggs
+- Drink coffee
+
+## Trabajos
+
+## ¿Qué es real?
+
+## Un mejor Framework
+
+# El Alcance completo de la Ciencia de los Datos
+
+## Las 6 divisiones
+
+- Eat spaghetti
+- Drink wine
+
+## Discusión
+
+- Get in bed
+- Count sheep
+
+## Enseñano una Mejor Ciencia de los Datos
+
+## Investigación en una Mejor Ciencia de los Datos
+
+# Los siguientes 50 años para la Ciencia de los Datos
+
+## Ciencia abierta
+
+## Ciencia como datos
+
+## Análisis Cientifico de los Datos
+
+## La Ciencia de los Datos en 2065
+

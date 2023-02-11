@@ -36,6 +36,12 @@ knitr::opts_chunk$set(echo = TRUE, comment = NA)
 - Dentro de la estadística se crearon herramientas para tratar con BD como lo son el "muestreo" y la "suficiencia".
 - DS = BD no obtiene nada demasiado sustancial en las áreas involucradas.
 
+
+```{r echo=FALSE, ssa-logo, fig.align = 'center', out.width = "25%", fig.cap = "Extracto del primer censo en EEUU en 1790"}
+knitr::include_graphics(here::here("images", "census.png"))
+```
+
+
 ## Habilidades
 
 - Eat eggs
@@ -71,4 +77,9 @@ knitr::opts_chunk$set(echo = TRUE, comment = NA)
 ## Análisis Cientifico de los Datos
 
 ## La Ciencia de los Datos en 2065
+
+## Referencias
+
+- [https://www.smithsonianmag.com/smart-news/first-us-census-only-asked-six-questions-180964234/](https://www.smithsonianmag.com/smart-news/first-us-census-only-asked-six-questions-180964234/)
+
 

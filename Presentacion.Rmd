@@ -16,13 +16,25 @@ knitr::opts_chunk$set(echo = TRUE, comment = NA)
 
 ---
 
-- Los estadistas se sienten excluidos por el "Data Science Movement".
+- "Data Science Initiative" (DSI) es un movimiento de la Universidad de Michigan anunciado en 2015 con un presupuesto de 100MDD.
+- Los estadísticos se sienten excluidos del "Data Science Movement".
 - Para ellos, mucho de lo que representa CD no es nada nuevo.
+- Las definiciones tanto de DS como de la Estadística pueden ser en muchos casos intercambiables.
 
-## Big Data
+<b>
+"Científico de datos" se refiere a un profesional que utiliza métodos científicos para liberar y crear significado a partir de datos sin procesar.
 
-- Turn off alarm
-- Get out of bed
+"Estadística" significa la práctica o la ciencia de recopilar y analizar datos numéricos en grandes cantidades.
+</b>
+
+- Claramente hay muchas visiones de la CD y su relación con la estadística. A continuación se presentan algunos de estos temas recurrentes.
+
+## Big Data (BD)
+
+- BD no es algo exactamente nuevo. Por ejemplo: desde hace cientos de años se han ejecutado censos de población.
+- Los estadísticos siempre se han sentido cómodos con grandes conjuntos de datos como estos.
+- Dentro de la estadística se crearon herramientas para tratar con BD como lo son el "muestreo" y la "suficiencia".
+- DS = BD no obtiene nada demasiado sustancial en las áreas involucradas.
 
 ## Habilidades
 

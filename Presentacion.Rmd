@@ -12,7 +12,12 @@ output:
 knitr::opts_chunk$set(echo = TRUE, comment = NA)
 ```
 
-# Ciencia de los Datos vs. Estadística
+# Ciencia de los Datos (CD) vs. Estadística
+
+---
+
+- Los estadistas se sienten excluidos por el "Data Science Movement".
+- Para ellos, mucho de lo que representa CD no es nada nuevo.
 
 ## Big Data
 

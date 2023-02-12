@@ -12,6 +12,15 @@ output:
 knitr::opts_chunk$set(echo = TRUE, comment = NA)
 ```
 
+---
+
+- En 1962 se publicó "The Future of Data Analysis" (FoDA).
+- Se hablaba entonces de una nueva ciencia, una cuyo tema de interés es aprender de los datos.
+
+```{r echo=FALSE, tukey, fig.align = 'center', out.width = "55%", fig.cap = "John Tukey, autor de FoDA y uno de los estadísticos más importantes del siglo XX"}
+knitr::include_graphics(here::here("images", "tukey.jpg"))
+```
+
 # Ciencia de los Datos (CD) vs. Estadística
 
 ---
@@ -36,22 +45,41 @@ knitr::opts_chunk$set(echo = TRUE, comment = NA)
 - Dentro de la estadística se crearon herramientas para tratar con BD como lo son el "muestreo" y la "suficiencia".
 - DS = BD no obtiene nada demasiado sustancial en las áreas involucradas.
 
-
-```{r echo=FALSE, ssa-logo, fig.align = 'center', out.width = "25%", fig.cap = "Extracto del primer censo en EEUU en 1790"}
+```{r echo=FALSE, census, fig.align = 'center', out.width = "30%", fig.cap = "Extracto del primer censo en EEUU en 1790"}
 knitr::include_graphics(here::here("images", "census.png"))
 ```
 
-
 ## Habilidades
 
-- Eat eggs
-- Drink coffee
+- CD se enfoca en BD, pero esta no puede ser acomodada en recursos computacionales normales.
+- Los cientificos de datos tienen las habilidades necesarias para lidiar con estos grandes conjuntos de datos.
+- Pero, ¿Son habilidades para resolver el problema real de inferencia?
+- En realidad se trata de habilidades para lidiar con artefactos como el computo distribuido a gran escala.
+
+```{r echo=FALSE, hadoop, fig.align = 'center', out.width = "40%", fig.cap = "Hadoop y otras herramientas para cluster computing"}
+knitr::include_graphics(here::here("images", "hadoop.jpg"))
+```
 
 ## Trabajos
 
+- Se ha creado una gran necesidad en el mercado labora por Científicos de Datos.
+- Pero, hay pocos puestos de CD reales para personas sin experiencia laboral.
+- El desarrollo de un buen científico de datos tomará dedicación y tiempo.
+- Los programas actuales de CD pueden no crear Científicos de datos preparados para todas las bases de datos, software y workflows que hay allá afuera.
+
+```{r echo=FALSE, jobs, fig.align = 'center', out.width = "35%", fig.cap = "Cantidad de posiciones CD entre 2010 y 2020"}
+knitr::include_graphics(here::here("images", "jobs.png"))
+```
+
 ## ¿Qué es real?
 
-## Un mejor Framework
+- Los medios populares se han vuelto locos acerca de la CD. 
+- Es comprensible ya que sí estamos presenciando algo nunca antes visto.
+- Lo cierto que si hay (y habrán) muchos datos allá afuera que esperan su procesamiento.
+
+```{r echo=FALSE, techmedia, fig.align = 'center', out.width = "50%", fig.cap = "Principales blogs de tecnología"}
+knitr::include_graphics(here::here("images", "techmedia.jpeg"))
+```
 
 # El Alcance completo de la Ciencia de los Datos
 
@@ -80,6 +108,7 @@ knitr::include_graphics(here::here("images", "census.png"))
 
 ## Referencias
 
+- [https://www.amphilsoc.org/item-detail/photograph-john-wilder-tukey](https://www.amphilsoc.org/item-detail/photograph-john-wilder-tukey)
 - [https://www.smithsonianmag.com/smart-news/first-us-census-only-asked-six-questions-180964234/](https://www.smithsonianmag.com/smart-news/first-us-census-only-asked-six-questions-180964234/)
-
-
+- [https://www.cloudsigma.com/introduction-to-hadoop/](https://www.cloudsigma.com/introduction-to-hadoop/)
+- [https://www.datasciencecentral.com/data-science-job-market-shrinking-not-so-fast/](https://www.datasciencecentral.com/data-science-job-market-shrinking-not-so-fast )

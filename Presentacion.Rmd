@@ -4,8 +4,10 @@ author: Cesar Medina, Manuel Gastelum
 date: "15 de febrero de 2023"
 output: 
   ioslides_presentation:
+    transition: slower
     widescreen: true
     css: JB_style.css
+    logo: images/logo.png
 ---
 
 ```{r setup, include=FALSE}
@@ -60,7 +62,7 @@ knitr::include_graphics(here::here("images", "census.png"))
 knitr::include_graphics(here::here("images", "hadoop.jpg"))
 ```
 
-## Trabajos
+## Empleos
 
 - Se ha creado una gran necesidad en el mercado labora por Científicos de Datos.
 - Pero, hay pocos puestos de CD reales para personas sin experiencia laboral.
@@ -112,3 +114,14 @@ knitr::include_graphics(here::here("images", "techmedia.jpeg"))
 - [https://www.smithsonianmag.com/smart-news/first-us-census-only-asked-six-questions-180964234/](https://www.smithsonianmag.com/smart-news/first-us-census-only-asked-six-questions-180964234/)
 - [https://www.cloudsigma.com/introduction-to-hadoop/](https://www.cloudsigma.com/introduction-to-hadoop/)
 - [https://www.datasciencecentral.com/data-science-job-market-shrinking-not-so-fast/](https://www.datasciencecentral.com/data-science-job-market-shrinking-not-so-fast )
+- [https://xkcd.com/1838/](https://xkcd.com/1838/)
+
+## ¡Gracias por su atención! {.flexbox .vcenter}
+
+```{r echo=FALSE, xkcd, fig.align = 'center', out.width = "100%"}
+knitr::include_graphics(here::here("images", "xkcd.png"))
+```
+
+<div class="centered">
+La presentación se encuentra disponible en este [repositorio de github](https://github.com/m5991/50DataScience-PrDev/).
+</div>

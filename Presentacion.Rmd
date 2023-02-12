@@ -83,20 +83,23 @@ knitr::include_graphics(here::here("images", "jobs.png"))
 knitr::include_graphics(here::here("images", "techmedia.jpeg"))
 ```
 
+
+
+
 # El Alcance completo de la Ciencia de los Datos
 
 ## Las 6 divisiones
 
-- Eat spaghetti
-- Drink wine
-
 ## Discusión
-
-- Get in bed
 
 ## Enseñando una Mejor Ciencia de los Datos
 
 ## Investigación en una Mejor Ciencia de los Datos
+
+
+
+
+
 
 # Los siguientes 50 años para la Ciencia de los Datos
 

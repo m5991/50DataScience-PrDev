@@ -87,10 +87,94 @@ knitr::include_graphics(here::here("images", "techmedia.jpeg"))
 
 
 # El Alcance completo de la Ciencia de los Datos
+De acuerdo a Chambers el campo aspirante más amplio es Greater Data Science (GDS). Chambers y Cleveland dividen su tema ampliado en divisiones/temas/subcampos de actividad específicos
+
+Las actividades de Greater Data Science se clasifican en 6 divisiones:
+
+- Data Exploration and Preparation
+- Data Representation and Transformation
+- Computing with Data
+- Data Modeling
+- Data Visualization and Presentation
+- Science about Data Science
+-
+ {r echo=FALSE, Diapositiva 1, fig.align = 'right', out.width = "50%", fig.cap = "Data Science"}
+knitr::include_graphics(here::here("images", "Diapositiva 1.jpg"))
+
 
 ## Las 6 divisiones
+1. Exploración y preparación de los datos
+
+ - Exploración. Desde que John Tukey acuñó el término "análisis exploratorio de datos" (AED),todos estamos de acuerdo en que todos los científicos de datos dedican mucho tiempo y esfuerzo a explorar los datos para comprobar sus propiedades más básicas y sacar a la luz características inesperadas. Esta labor detectivesca aporta información crucial a todas las iniciativas basadas en datos.
+
+- Preparación. Muchos conjuntos de datos contienen anomalías y artefactos.
+
+ Cualquier proyecto basado en datos requiere identificar y abordar cuidadosamente estos problemas. Las respuestas van desde el reformateo y la recodificación de los propios valores hasta preprocesamientos más ambiciosos, como la agrupación, el suavizado y el subconjunto. Hoy en día se habla a menudo de limpieza de datos.
+ 
+ {r echo=FALSE, nombredelchunk, fig.align = 'center', out.width = "50%", fig.cap = "Texto de la figura"}
+knitr::include_graphics(here::here("images", "Diapositiva 1.jpg"))
+
+## 2. Representacion y transformacion de los datos
+
+Los científicos de datos desarrollan habilidades en dos áreas específicas:
+
+- Bases de datos modernas. El alcance de la representación de datos actual incluye todo, desde archivos de texto caseros y hojas de cálculo hasta bases de datos SQL y noSQL, bases de datos distribuidas y flujos de datos en directo. Los científicos de datos necesitan conocer las estructuras, las transformaciones y los algoritmos implicados en el uso de todas estas representaciones diferentes.
+
+- Representaciones matemáticas. Se trata de estructuras matemáticas interesantes y útiles para representar datos de tipos especiales, como datos acústicos, de imágenes, de sensores y de redes.
+
+Por ejemplo, para obtener características con datos acústicos, a menudo se transforma al cepstrum o la transformada de Fourier; para datos de imágenes y sensores, la transformada wavelet o alguna otra transformada multiescala (por ejemplo, pirámides en aprendizaje profundo). Los científicos de datos desarrollan instalaciones con estas herramientas y maduran su criterio a la hora de utilizarlas.
+
+{r echo=FALSE, Diapositiva 3, fig.align = 'right', out.width = "50%", fig.cap = "DataBase"}
+knitr::include_graphics(here::here("images", "Diapositiva 3.jpg"))
+
+## 3. Computación con datos
+
+Todo científico de datos debe conocer y utilizar varios lenguajes para análisis y procesamiento de datos. 
+Estos pueden incluir lenguajes populares como R y Python, pero también lenguajes específicos para transformar y manipular texto, y para gestionar complejos pipelines. No es extraño participar en proyectos ambiciosos utilizando media docena de lenguajes de forma conjunta. 
+Más allá del conocimiento básico de los lenguajes, los científicos de datos necesitan estar al día de los nuevos modismos para utilizarlos de forma eficiente y deben comprender las cuestiones más profundas relacionadas con la eficiencia computacional.
+
+{r echo=FALSE, Diapositiva 4a, fig.align = 'left', out.width = "30%", fig.cap = "R"}
+knitr::include_graphics(here::here("images", "Diapositiva 4a.jpg"))
+
+{r echo=FALSE, Diapositiva 4b, fig.align = 'right', out.width = "30%", fig.cap = "Python"}
+knitr::include_graphics(here::here("images", "Diapositiva 4b.jpg"))
+
+
+## 4. Visualización y presentación de datos
+
+La visualización de datos en un extremo se traslapa con el EDA (histogramas, gráficos de dispersión, gráficos de series temporales), pero en la práctica la práctica moderna puede llegar a extremos mucho más elaborados.
+
+{r echo=FALSE, Diapositiva 5, fig.align = 'left', out.width = "60%", fig.cap = "Visualization"}
+knitr::include_graphics(here::here("images", "Diapositiva 5.jpg"))
+
+## 5. Modelación de datos
+
+- Modelización generativa: en la que se propone un modelo estocástico que podría haber generado los datos, y se derivan métodos para inferir propiedades del mecanismo generativo subyacente. A grandes rasgos, esto coincide con la estadística académica tradicional y sus derivaciones. 
+
+- La modelización predictiva: en la que se construyen métodos que predicen bien sobre algún universo de datos dado, es decir, un conjunto de datos concreto muy específico. Esto coincide aproximadamente con el aprendizaje automático moderno y sus ramificaciones industriales.
+
+{r echo=FALSE, Diapositiva 6, fig.align = 'right', out.width = "50%", fig.cap = "Data Model"}
+knitr::include_graphics(here::here("images", "Diapositiva 6.jpg"))
+
+## 6. Ciencia sobre ciencia de datos
+
+Tukey propuso que existe una "ciencia del análisis de datos y debería ser reconocida como una de las más complicadas de todas las ciencias. 
+
+Abogó por estudio de lo que los analistas de datos "en la naturaleza" están haciendo realmente, y nos recordó que la verdadera eficacia de una herramienta está relacionada con la probabilidad de despliegue multiplicada por la probabilidad de éxito, la verdadera eficacia de una herramienta está relacionada con la probabilidad de despliegue multiplicada por la probabilidad de resultados efectivos una vez desplegada.
+
+{r echo=FALSE, Diapositiva 7, fig.align = 'right', out.width = "50%", fig.cap = "Data Science"}
+knitr::include_graphics(here::here("images", "Diapositiva 7.jpg"))
+
 
 ## Discusión
+ 
+Estas seis categorías de actividad, cuando se analizan en su totalidad, abarcan un campo mucho mayor de lo que enseñan o estudian actualmente los académicos.De hecho, una sola categoría - "GDS5: Data Modeling"- dominan la representación de la ciencia de datos en los departamentos académicos actuales.
+
+La tensión entre el aprendizaje automático y la estadística académica se suprime en la clasificación anterior; gran parte de ella es irrelevante para lo que los científicos de datos hacen a diario. 
+
+Como se menciona más arriba los científicos de datos deben usar tanto modelos generativos como predictivos.
+
+
 
 ## Enseñando una Mejor Ciencia de los Datos
 

@@ -151,7 +151,7 @@ knitr::include_graphics(here::here("images", "Diapositiva 4b.png"))
 
 ## 4. Visualización y presentación de datos
 
-La visualización de datos en un extremo se traslapa con el EDA (histogramas, gráficos de dispersión, gráficos de series temporales), pero en la práctica la práctica moderna puede llegar a extremos mucho más elaborados.
+- La visualización de datos en un extremo se traslapa con el EDA (histogramas, gráficos de dispersión, gráficos de series temporales), pero en la práctica la práctica moderna puede llegar a extremos mucho más elaborados.
 
 ```{r echo=FALSE, Diapositiva5, fig.align = 'left', out.width = "60%", fig.cap = "Visualization"}
 knitr::include_graphics(here::here("images", "Diapositiva 5.png"))
@@ -179,17 +179,12 @@ knitr::include_graphics(here::here("images", "Diapositiva 7.jpg"))
 
 
 ## Discusión
-Estas seis categorías de actividad, cuando se analizan en su totalidad, abarcan un campo mucho mayor de lo que enseñan o estudian actualmente los académicos.De hecho, una sola categoría - "GDS5: Data Modeling"- dominan la representación de la ciencia de datos en los departamentos académicos actuales.
+- Estas seis categorías de actividad, cuando se analizan en su totalidad, abarcan un campo mucho mayor de lo que enseñan o estudian actualmente los académicos.De hecho, una sola categoría - "GDS5: Data Modeling"- dominan la representación de la ciencia de datos en los departamentos académicos actuales.
 
-La tensión entre el aprendizaje automático y la estadística académica se suprime en la clasificación anterior; gran parte de ella es irrelevante para lo que los científicos de datos hacen a diario. 
+- La tensión entre el aprendizaje automático y la estadística académica se suprime en la clasificación anterior; gran parte de ella es irrelevante para lo que los científicos de datos hacen a diario. 
 
-Como se menciona más arriba los científicos de datos deben usar tanto modelos generativos como predictivos.
+- Como se menciona más arriba los científicos de datos deben usar tanto modelos generativos como predictivos.
 
-
-
-## Enseñando una Mejor Ciencia de los Datos
-
-## Investigación en una Mejor Ciencia de los Datos
 
 
 

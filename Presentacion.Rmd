@@ -54,7 +54,7 @@ knitr::include_graphics(here::here("images", "census.png"))
 ## Habilidades
 
 - CD se enfoca en BD, pero esta no puede ser acomodada en recursos computacionales normales.
-- Los cientificos de datos tienen las habilidades necesarias para lidiar con estos grandes conjuntos de datos.
+- Los científicos de datos tienen las habilidades necesarias para lidiar con estos grandes conjuntos de datos.
 - Pero, ¿Son habilidades para resolver el problema real de inferencia?
 - En realidad se trata de habilidades para lidiar con artefactos como el computo distribuido a gran escala.
 
@@ -132,7 +132,7 @@ Los científicos de datos desarrollan habilidades en dos áreas específicas:
 
 - Representaciones matemáticas. Se trata de estructuras matemáticas interesantes y útiles para representar datos de tipos especiales, como datos acústicos, de imágenes, de sensores y de redes.
 
-Por ejemplo, para obtener características con datos acústicos, a menudo se transforma al cepstrum o la transformada de Fourier; para datos de imágenes y sensores, la transformada wavelet o alguna otra transformada multiescala (por ejemplo, pirámides en aprendizaje profundo). Los científicos de datos desarrollan instalaciones con estas herramientas y maduran su criterio a la hora de utilizarlas.
+Por ejemplo, para obtener características con datos acústicos, a menudo se transforma al cepstrum o la transformada de Fourier; para datos de imágenes y sensores, la transformada wavelet o alguna otra transformada multi-escala (por ejemplo, pirámides en aprendizaje profundo). Los científicos de datos desarrollan instalaciones con estas herramientas y maduran su criterio a la hora de utilizarlas.
 
 ```{r echo=FALSE, "Diapositiva 3", fig.align = 'right', out.width = "100%", fig.cap = "DataBase"}
 knitr::include_graphics(here::here("images", "Diapositiva 3.jpg"))
@@ -213,8 +213,8 @@ knitr::include_graphics(here::here("images", "Diapositiva 7.jpg"))
 ## Ciencia abierta
 
 - El propósito de la publicación científica es permitir la reproducibilidad de los resultados de la investigación.
-- Conforme se han hecho más complejas las técnicas de análsis de datos, la distancia entre lo que los investigadores hicieron y lo que ven los lectores se hace más grande.
-- La reproductividad de los experimentos computacionales es tán importante para la ciencia como para la CD.
+- Conforme se han hecho más complejas las técnicas de análisis de datos, la distancia entre lo que los investigadores hicieron y lo que ven los lectores se hace más grande.
+- La reproductibilidad de los experimentos computacionales es tan importante para la ciencia como para la CD.
 
 ```{r echo=FALSE, papers, fig.align = 'center', out.width = "50%", fig.cap = "Papers with Code"}
 knitr::include_graphics(here::here("images", "papers.png"))
@@ -222,16 +222,16 @@ knitr::include_graphics(here::here("images", "papers.png"))
 
 ## Ciencia como datos
 
-- Los datos provenientes de publicaciones cientificas pueden ser dificiles de extraer y limpiar.
+- Los datos provenientes de publicaciones científicas pueden ser difíciles de extraer y limpiar.
 - Los artículos que tienen Resultados Computacionales Verificables (VCR) contienen un resultado computacional y los metadatos acerca de ese resultado, pero asociado a un URL inmutable.
-- En un mundo donde todos cada publicación científica posee este estándar permitirá extraer facílmente los P-Values, gráficos y facilitará el fact-check del estudio.
+- En un mundo donde todos cada publicación científica posee este estándar permitirá extraer fácilmente los P-Values, gráficos y facilitará el fact-check del estudio.
 - Lo anterior puede revolucionar los siguientes dos tipos de estudios:
 1. Estudios cruzados con control compartido. Estudios masivos donde se van añadiendo nuevos data points.
 2. Estudios cruzados comparativos. Estudios replicables y su capacidad de compararlos.
 
 ## Análisis Cientifico de los Datos
 
-- Cuando todos estos datos se encuentren disponibles, se abrirá la posibilidad de revisar empiricamente y de forma universal la efectividad de los metodos.
+- Cuando todos estos datos se encuentren disponibles, se abrirá la posibilidad de revisar empíricamente y de forma universal la efectividad de los métodos.
 - Este es un cambio de juego para la metodología estadística.
 - En los siguientes 50 años, los datos de muestra estarán disponibles para medir el rendimiento de los algoritmos en un conjunto completo de situaciones.
 
